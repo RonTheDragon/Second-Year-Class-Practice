@@ -16,4 +16,5 @@ public class bullet : MonoBehaviour
     {
         transform.position = transform.position + transform.forward * _bulletSpeed * Time.deltaTime;
     }
+
 }
